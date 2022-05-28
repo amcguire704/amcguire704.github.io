@@ -1,7 +1,7 @@
 require("./index.css");
 var $8jldj$reactjsxruntime = require("react/jsx-runtime");
 var $8jldj$react = require("react");
-var $8jldj$reactdomclient = require("react-dom/client");
+var $8jldj$reactdom = require("react-dom");
 var $8jldj$swchelperslib_async_to_generatorjs = require("@swc/helpers/lib/_async_to_generator.js");
 var $8jldj$regeneratorruntime = require("regenerator-runtime");
 var $8jldj$axios = require("axios");
@@ -13,7 +13,6 @@ var $8jldj$reactcreditcards = require("react-credit-cards");
 var $8jldj$payment = require("payment");
 var $8jldj$webvitals = require("web-vitals");
 var $8jldj$swchelperslib_sliced_to_arrayjs = require("@swc/helpers/lib/_sliced_to_array.js");
-require("react-dom");
 
 function $parcel$interopDefault(a) {
   return a && a.__esModule ? a.default : a;
@@ -589,7 +588,7 @@ function $6028db0aba8f90f7$export$2e2bcd8739ae039() {
 
 
 var $ac8f80d7ef71e787$var$widgetDiv = document.getElementById("scalejag");
-var $ac8f80d7ef71e787$var$root = (0, ($parcel$interopDefault($8jldj$reactdomclient))).createRoot($ac8f80d7ef71e787$var$widgetDiv);
+var $ac8f80d7ef71e787$var$root = (0, ($parcel$interopDefault($8jldj$reactdom))).createRoot($ac8f80d7ef71e787$var$widgetDiv);
 $ac8f80d7ef71e787$var$root.render(/*#__PURE__*/ (0, $8jldj$reactjsxruntime.jsxs)((0, ($parcel$interopDefault($8jldj$react))).StrictMode, {
     children: [
         /*#__PURE__*/ (0, $8jldj$reactjsxruntime.jsx)((0, $6028db0aba8f90f7$export$2e2bcd8739ae039), {}),
